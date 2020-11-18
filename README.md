@@ -1,3 +1,14 @@
+Following the official guide to generate Beat
+
+in general, the logic to collect lm metric remain the same, but implementation has changed to fit new Beat lib:
+
+use new beat framework code to get config paramenter
+use new datasturture beat.Event to compose event
+It is tested in Centos 7.5.
+
+To build it, package lm_sensors-devel needs to be installed.
+to run it, package lm_sensors needs to be installed.
+
 # {Beat}
 
 Welcome to {Beat}.
